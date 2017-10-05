@@ -32,7 +32,7 @@ class dog(animal):
 #Instance walks 3 times and runs twice displays health has changed to 137 from 150#
 spike = dog("Spike").walk().walk().walk().run().run().display_all()
 #below confirms that dog cannot fly: AttributeError: 'dog' object has no attribute 'fly'#
-spike = dog("Spike").fly.display_all()
+
 
 #creation of dragon class#
 class dragon(animal):
