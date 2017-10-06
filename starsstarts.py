@@ -1,8 +1,8 @@
 def draw_stars(arr):
     newarr = []
     x = 0
-    for count in range(len(arr)):
-        x = arr[count] * "*"
+    for i in range(len(arr)):
+        x = arr[i] * "*"
         print x
 draw_stars([4, 6, 1, 3, 5, 7, 25])
 
